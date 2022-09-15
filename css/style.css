@@ -1,0 +1,267 @@
+*{
+    margin: 0%
+    ;
+    padding: 0%;
+}
+
+body{ background-color: #000000; 
+     width: 100vw
+    ;
+height: 100vh;
+;}
+
+.banner img{ 
+margin: auto;
+display: flex;
+align-items: center;    
+width: 400px;
+height: 85px;
+}
+
+
+
+
+.intro { 
+    display: block;
+    background: #ffffff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    padding: 7px ;
+    color: #000000;
+    margin-block-end: 15px;
+}
+
+
+
+
+
+.navegacion {
+display: grid;
+background-color: #ffffff;
+text-align: center;
+padding: flex;
+margin-block-start: 1em;
+margin-inline-start: 10%;
+margin-inline-end: 10%;
+}
+.navegacion ul{list-style: none;
+
+    
+}
+
+
+.menu > li{
+position: relative
+;
+display: inline-block;
+
+}
+
+.menu > li > a{
+    position: relative;
+    display: grid;
+ text-align: center;
+    padding: 10px 15px;
+    color: #060606 ;
+    font-family: 'Montserrat', sans-serif;
+    ;    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    
+
+}
+
+
+.menu li a:hover{color: #ff0000 ;
+transition: all .3s;
+}
+
+.subMenu {
+    
+    position: absolute;
+    background: #222222;
+    visibility: hidden;
+    transition: ; opacity: 0.7s;
+    font-weight: 600;
+    width: 120%;
+    text-align: start ;
+}
+.subMenu li a{display: block;
+     padding: 15px;
+    color: #ffffff;
+
+    font-family: 'Montserrat', sans-serif;
+    ;    font-size: small;
+    text-decoration: none;
+    
+    
+    
+}
+
+.menu li:hover .subMenu {visibility: visible; opacity: 1; }
+
+.catalogo {background-color: rgb(21, 21, 21) ;
+    grid: auto;
+    margin-inline-start: 10% ;
+    margin-inline-end: 10%;
+
+
+
+
+}
+.products{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #151515;
+margin-inline-start: 10%;
+margin-inline-end: 10%;
+margin-block-end: 30px
+
+}
+
+.caja img{
+width: 208px;
+height: 258px;
+display: block;
+margin: auto;
+margin-block-end: 30px;}
+
+.caja h3{font-family: 'Montserrat', sans-serif; 
+    font-size: small;
+    color: #ff0000;
+text-decoration: none;
+font-size: larger;
+text-align: center;
+}
+.caja h3 a{text-decoration: none;
+color: #ffffff;
+margin: auto;}
+
+
+.caja{
+margin: 30px;
+
+}
+
+.caja h3 a:hover{color: #ff0000 ;
+    transition: all .3s;}
+
+.btn {
+margin-top: 8px;   
+    padding: 6px 12px;
+    border: 1px solid #ffffff;
+    background-color: #060606;
+  
+    color: #ffffff;
+    transition: color .15s ease-in-out,
+      background-color .15s ease-in-out;}
+
+      .product h3 a:hover { 
+        color: #ff0000; transition: all 0.3s;
+        display: block;
+   
+
+      }
+  
+  .btn:hover, .btn:active, .btn:focus {
+    color: rgb(0, 0, 0);
+    background-color: #fffdfd;
+  }
+
+
+  .slider{width: 80%;
+
+    display: grid;
+    text-align: center;
+margin: auto;
+margin-block-end: 40px;
+margin-block-start: 40px;
+overflow: hidden;
+
+  }
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 20s infinite
+}
+.slider li{
+    list-style: none;
+width: 60%;
+}
+
+.slider img{width: 100%;}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+    
+    
+.seguirIG{color: #fffdfd;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+
+}
+.letrasContacto{
+   
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+background-color: #d12323;}
+
+.copdripIg {
+text-decoration: none;
+color: #ffffff;
+display: block;
+text-align: center;
+
+margin: 120px;
+
+font-family: 'Montserrat', sans-serif;
+font-size: xx-large;
+font-weight: bolder;}
+.footer {
+display: grid;
+width: 100%;
+
+
+}
+.futer { 
+    display: grid;
+    background: #ffffff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    padding: 7px ;
+    color: #000000;
+  
+}
+@media (max-width: 700px) {
+    .menu li { display:}
+    .menu > li > a{ font-size: 13px;}  
+    .banner img{ height:60px;
+    width:300px;
+        margin: auto
+} 
+.intro{font-size: 10px;}
+
+
+
+
+    
